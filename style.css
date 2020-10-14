@@ -1,0 +1,261 @@
+body {
+	margin: 0px;
+	text-align: center;
+	font-family: sans-serif;
+  font-family: 'Merriweather', serif;
+}
+
+
+#header {
+	width: 100%;
+	background-color: #f3971b;
+	padding-top: 20px;
+}
+
+.header {
+	width: 100%;
+	margin: 0px auto 0px;
+}
+
+.h1 {
+	width: 150px;
+	height: 50px;
+	display: inline-block;
+	position: relative;
+	margin-right: 30px;
+}
+
+a {
+  color: #ffffff;
+  font-size: 1.5rem;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #008ae6;
+}
+
+#home {
+	background-color: #292929;
+}
+
+#container-anim {
+    color:#ffffff;
+    text-align:center;
+    text-transform: uppercase;
+    font-size:36px;
+    font-family: 'Montserrat', sans-serif;
+    width:100%;
+    bottom:45%;
+    display:block;
+}
+#flip {
+    height:50px;
+    overflow:hidden;
+}
+#flip > div > div {
+    color:#f3971b;
+    padding:4px 12px;
+    height:45px;
+    margin-bottom:45px;
+    display:inline-block;
+}
+#flip div:first-child {
+    animation: show 7s linear infinite;
+}
+#flip div div {background:#66ff66;}
+#flip div:first-child div {background:#4dffdb;}
+#flip div:last-child div {background:#ffffff;}
+
+@keyframes show {
+    0% {margin-top:-270px;}
+    5% {margin-top:-180px;}
+    33% {margin-top:-180px;}
+    38% {margin-top:-90px;}
+    66% {margin-top:-90px;}
+    71% {margin-top:0px;}
+    99.99% {margin-top:0px;}
+    100% {margin-top:-270px;}
+}
+
+#about {
+	width: 100%;
+	background-color: #353535;
+}
+
+.about {
+	width: 90%;
+	margin: 10px auto 0px;
+}
+
+.a1 {
+	width: 350px;
+	height: 350px;
+	display: inline-block;
+	position: relative;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+
+p.intro {
+	text-align: left;
+	margin: 10px auto;
+}
+
+img{
+	width: 300px;
+	height: 250px;
+}
+
+h1 {
+	color: #f3971b;
+	text-decoration: underline;
+	margin-top: 0px;
+	padding: 10px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+	color: #00b36b;
+	font-family: 'Montserrat', sans-serif;
+}
+
+h4, h3 {
+	text-align: left;
+	color: #ffffff;
+	font-family: 'Montserrat', sans-serif;
+}
+
+p {
+	text-align: center;
+	color: #c2c0c3;
+	width: 80%;
+	line-height: 1.5;
+	font-size: 1.2rem;
+	margin-left: 30px;
+}
+
+#services {
+	width: 100%;
+	background-color: #292929;
+}
+
+.service1, .service2 {
+	width: 90%;
+	margin: 10px auto 0px;
+}
+
+span {
+	color: #f3971b;
+	padding-top: 10px;
+}
+
+.s1, .s2 {
+	width: 350px;
+	height: 350px;
+	display: inline-block;
+	position: relative;
+	margin-right: 30px;
+	margin-bottom: 30px;
+	background-color: #353535;
+}
+
+#portfolio {
+	width: 100%;
+	background-color: #353535;
+}
+
+.portfo1, .portfo2 {
+	width: 90%;
+	margin: 10px auto 0px;
+}
+
+.row1, .row2 {
+	width: 350px;
+	height: 350px;
+	display: inline-block;
+	position: relative;
+	margin-right: 30px;
+	margin-bottom: 30px;
+	background-color: #292929;
+}
+
+#team {
+	width: 100%;
+	background-color: #292929;
+}
+
+.team {
+	width: 90%;
+	margin: 10px auto 0px;
+}
+
+.t1 {
+	width: 350px;
+	height: 400px;
+	display: inline-block;
+	position: relative;
+	margin-right: 30px;
+	margin-bottom: 30px;
+	background-color: #353535;
+}
+
+h2.teammate {
+	color: #ffffff;
+}
+
+p.team-role {
+	color: #f3971b;
+	font-size: 1.5rem; 
+}
+
+img.dog-pic {
+	margin-top: 20px;
+}
+
+#contact {
+	width: 100%;
+	background-color: #353535;
+
+}
+.contact1, .contact2 {
+	width: 75%;
+	margin: 20px auto;
+	background-color: #292929;
+}
+
+.c1 {
+	width: 300px;
+	height: 250px;
+	display: inline-block;
+	position: relative;
+	padding-top: 20px;
+}
+
+h3.contact {
+	text-align: center;
+	color: #ffffff;
+	font-size: 2rem;
+}
+
+p.contact {
+	color: #c2c0c3;
+	font-size: 1.2rem;
+}
+
+hr {
+	width: 80%;
+	margin: auto;
+}
+.c2 {
+	width: 150px;
+	height: 50px;
+	display: inline-block;
+	position: relative;
+	margin-top: 20px;
+	margin-bottom: 50px;
+}
+
+
